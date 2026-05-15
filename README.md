@@ -1,46 +1,48 @@
-# GrayScale-Color-HistEqualization
+# Histogram Equalization Using OpenCV (Grayscale & Color Images)
+
+---
+
 ## Aim
+
 To write a Python program using OpenCV to perform histogram equalization on both grayscale and color images to enhance image contrast and brightness.
 
 The program performs the following operations:
 
-1.Read and display a grayscale image
+- Read and display a grayscale image  
+- Plot histogram of the grayscale image  
+- Apply histogram equalization on grayscale image  
+- Read and display a color image  
+- Plot histogram of B, G, R channels  
+- Convert image to HSV color space  
+- Apply histogram equalization on the Value (V) channel  
+- Convert the enhanced image back to BGR format  
+- Display original and enhanced images with histograms  
 
-2.Plot histogram of the grayscale image
-
-3.Apply histogram equalization on grayscale image
-
-4.Read and display a color image
-
-5.Plot histogram of B, G, R channels
-
-6.Convert image to HSV color space
-
-7.Apply histogram equalization on the Value (V) channel
-
-8.Convert the enhanced image back to BGR format
-
-9.Display original and enhanced images with histograms
+---
 
 ## Software Used
-Anaconda – Python 3.7
-Jupyter Notebook / VS Code
-OpenCV (cv2)
-NumPy
-Matplotlib
+
+- Anaconda – Python 3.7  
+- Jupyter Notebook / VS Code  
+- OpenCV (`cv2`)  
+- NumPy  
+- Matplotlib  
+
+---
 
 ## Algorithm
+
 ### Step 1:
 Import the required libraries: OpenCV, NumPy, and Matplotlib.
 
 ### Step 2:
-Read the image parrot.jpg in grayscale format.
+Read the image `parrot.jpg` in grayscale format.
 
 ### Step 3:
 Display the grayscale image and plot its histogram.
 
 ### Step 4:
-Apply histogram equalization using cv2.equalizeHist() to enhance contrast.
+Apply histogram equalization using `cv2.equalizeHist()` to enhance contrast.
 
 ### Step 5:
 Display original grayscale image, its histogram, enhanced image, and its histogram using a 2 × 2 grid.
@@ -63,34 +65,36 @@ Merge the channels and convert the image back to BGR format.
 ### Step 11:
 Display original color image, histogram, enhanced image, and enhanced histogram using a 2 × 2 grid.
 
+---
+
 ## Program
-Developed By:
-Name: Ashok Kumar Preetham Kumar
 
-Register No:
-212224040032
+### Developed By:
+**Name:** ____________________________  
 
-## Output
+### Register No:
+____________________________  
+
+---
+
+##  Output
+
 ### Grayscale Histogram Equalization
 
-1.Original grayscale image is displayed
-
-2.Histogram of original grayscale image is plotted
-
-3.Enhanced image after histogram equalization is displayed
-
-4. Histogram of enhanced grayscale image shows improved contrast
+- Original grayscale image is displayed  
+- Histogram of original grayscale image is plotted  
+- Enhanced image after histogram equalization is displayed  
+- Histogram of enhanced grayscale image shows improved contrast  
 
 ### Color Image Histogram Equalization
 
-1.Original color image is displayed
+- Original color image is displayed  
+- Histogram of B, G, R channels is plotted  
+- Enhanced image after HSV-based equalization is displayed  
+- Histogram of enhanced image shows better intensity distribution  
 
-2.Histogram of B, G, R channels is plotted
-
-3.Enhanced image after HSV-based equalization is displayed
-
-4.Histogram of enhanced image shows better intensity distribution
+---
 
 ## Result
-Thus, histogram equalization is successfully performed on both grayscale and color images using OpenCV. The contrast and brightness of the images are significantly improved, enhancing visual quality and feature visibility.
 
+Thus, histogram equalization is successfully performed on both grayscale and color images using OpenCV. The contrast and brightness of the images are significantly improved, enhancing visual quality and feature visibility.
