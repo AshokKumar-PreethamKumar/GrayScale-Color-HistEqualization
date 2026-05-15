@@ -70,10 +70,10 @@ Display original color image, histogram, enhanced image, and enhanced histogram 
 ## Program
 
 ### Developed By:
-**Name:** ____________________________  
+**Name:** Ashok Kumar Preetham Kumar
 
 ### Register No:
-____________________________  
+212224040032
 
 ---
 
